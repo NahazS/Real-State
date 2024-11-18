@@ -14,7 +14,7 @@ A dynamic real estate property listing website built with React and Firebase for
 - **Frontend**: React, Tailwind CSS, React Router
 - **Backend**: Firebase for authentication
 - **Libraries**: Swiper for the banner slider, React Icons, and other essential libraries.
-- **Deployment**: Netlify
+- **Deployment**: Firebase
 
 ## Installation
 
@@ -31,24 +31,30 @@ To set up this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/real-estate-property.git
 
+   ```
 2. Navigate to the project directory:
 
    ```bash
    cd real-estate-property
 
+   ```
 3. Install the dependencies:
 
    ```bash
    npm install
-4.	Add Firebase configuration:
+   ```
+4. Add Firebase configuration:
 
-	•	Go to Firebase Console and create a project.
-    
-	•	Set up Authentication (Google, GitHub, and Email/Password).
+   •	Go to Firebase Console and create a project.
 
-	•	Add Firebase credentials to the firebase.config.js file in the project.
-    ```bash
-    npm run dev
+   •	Set up Authentication (Google, GitHub, and Email/Password).
 
+   •	Add Firebase credentials to the firebase.config.js file in the project.
+
+   ```bash
+   npm run dev
+
+
+   ```
 
 The `README.md` includes a link to the live demo: [Live Demo](https://real-state-df9c3.web.app/).
